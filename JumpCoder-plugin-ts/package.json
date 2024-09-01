@@ -1,7 +1,7 @@
 {
-  "name": "JumpCoder-plugin-ts",
-  "displayName": "JumpCoder-plugin-ts",
-  "description": "JumpCoder-plugin-ts",
+  "name": "JumpCoder-plugin",
+  "displayName": "JumpCoder-plugin",
+  "description": "JumpCoder-plugin",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.92.0"
@@ -9,6 +9,7 @@
   "categories": [
     "Other"
   ],
+  "icon": "jump.png",
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
@@ -27,7 +28,7 @@
           {
               "id": "myExtensionSidebar",
               "title": "JumpCoder_plugin",
-              "icon": "./src/arrow-right-top.svg"
+              "icon": "jump.png"
           }
       ]
     },
@@ -89,6 +90,11 @@
     "eslint": "^8.57.0",
     "typescript": "^5.4.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Avabowler/JumpCoder-Plugin.git"
+  },
+  "publisher": "Avabowler",
   "dependencies": {
     "axios": "^1.7.4"
   }

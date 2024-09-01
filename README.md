@@ -49,6 +49,8 @@ python run_jumpcoder_server.py --address_infilling 127.0.0.1:8081 --address_gene
 
 You can configure the plugin to use your custom JumpCoder_Backend_Server address to utilize JumpCoder.
 
+The JumpCoder plugin has been released in the vscode plugin marketplace, or you can install it using `vsix`, the `vsix` installer is in the . /JumpCoder-plugin-ts directory.
+
 ### Extension Settings
 
 - `myExtension.Sidebar`: Provides a sidebar search box feature for JumpCoder. You can open the sidebar by clicking the JumpCoder icon, where a search box and some parameters for JumpCoder will be displayed. You can input your code generation prompts in the search box and click search to generate code.
