@@ -33,7 +33,7 @@ CUDA_VISIBLE_DEVICES=0 docker run --gpus all --shm-size 1g -p 8081:80 -v $volume
 
 ##### Step 2 启动JumpCoder_Backend_Server
 
-你可以在（）中下载JumpCoder_Backend_Server代码，这是一个基于flask框架实现的简易的后端服务器。你可以按照下面命令安装它。
+你可以在[JumpCoder-Plugin/JumpCoder-server](https://github.com/Avabowler/JumpCoder-Plugin/tree/main/JumpCoder-server)中下载JumpCoder_Backend_Server代码，这是一个基于flask框架实现的简易的后端服务器。你可以按照下面命令安装它。
 
 ```bash
 conda env create --name JumpCoder_Backend_Server -f environment.yml && conda activate JumpCoder_Backend_Server
