@@ -49,6 +49,8 @@ python run_jumpcoder_server.py --address_infilling 127.0.0.1:8081 --address_gene
 
 JumpCoder插件已经发布在vscode插件市场中，或者你也可以使用`vsix`安装，`vsix`安装包在./JumpCoder-plugin-ts目录下。
 
+你可以在设置中`@ext:Avabowler.JumpCoder-plugin`配置自定义的 JumpCoder_Backend_Server 地址来使用 JumpCoder。
+
 
 
 ## Extension Settings

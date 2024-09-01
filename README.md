@@ -47,9 +47,11 @@ python run_jumpcoder_server.py --address_infilling 127.0.0.1:8081 --address_gene
 
 #### Step 3: Run the Plugin
 
-You can configure the plugin to use your custom JumpCoder_Backend_Server address to utilize JumpCoder.
-
 The JumpCoder plugin has been released in the vscode plugin marketplace, or you can install it using `vsix`, the `vsix` installer is in the . /JumpCoder-plugin-ts directory.
+
+You can use JumpCoder by configuring a custom JumpCoder_Backend_Server address in the settings `@ext:Avabowler.JumpCoder-plugin`.
+
+
 
 ### Extension Settings
 
