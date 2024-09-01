@@ -1,4 +1,4 @@
-![](.\assets\sample.gif)
+<video src="./assets/sample.mp4"></video>
 
 ## Requirements
 
