@@ -1,5 +1,5 @@
 <video src="https://github.com/Avabowler/JumpCoder-Plugin/blob/main/assets/sample.mp4"></video>
-
+![image](https://github.com/Avabowler/JumpCoder-Plugin/blob/main/assets/sample.gif)
 
 ### Requirements
 
