@@ -1,4 +1,4 @@
-<video src="./assets/sample.mp4"></video>
+<video src="https://github.com/Avabowler/JumpCoder-Plugin/blob/main/assets/sample.mp4"></video>
 
 ## Requirements
 
