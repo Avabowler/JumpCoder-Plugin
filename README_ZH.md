@@ -42,7 +42,7 @@ conda env create --name JumpCoder_Backend_Server -f environment.yml && conda act
 接下来运行JumpCoder_Backend_Server。注意这里的地址是你在Step 1中部署进行生成或者填充的大模型的地址。
 
 ```bash
-python run_jumpcoder_server.py --address_infilling 127.0.0.1:8081 --address_generation 127.0.0.1:8080
+python run_jumpcoder_server.py --address_infilling http://127.0.0.1:8081 --address_generation http://127.0.0.1:8080
 ```
 
 ##### Step 3 运行插件
