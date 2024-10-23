@@ -39,10 +39,10 @@ You can download the JumpCoder_Backend_Server code from [JumpCoder-Plugin/JumpCo
 conda env create --name JumpCoder_Backend_Server -f environment.yml && conda activate JumpCoder_Backend_Server
 ```
 
-Next, run JumpCoder_Backend_Server. Note that the addresses used here should match the addresses of the generation or infilling models deployed in Step 1. JumpCoder_Backend_Server runs by default on port 127.0.0.1:5000, but you can adjust this if needed.
+Next, run JumpCoder_Backend_Server. Note that the addresses used here should match the addresses of the generation or infilling models deployed in Step 1. JumpCoder_Backend_Server runs by default on port http://127.0.0.1:5000, but you can adjust this if needed.
 
 ```bash
-python run_jumpcoder_server.py --address_infilling 127.0.0.1:8081 --address_generation 127.0.0.1:8080
+python run_jumpcoder_server.py --address_infilling http://127.0.0.1:8081 --address_generation http://127.0.0.1:8080
 ```
 
 #### Step 3: Run the Plugin
